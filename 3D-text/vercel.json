@@ -1,10 +1,8 @@
 {
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
   "rewrites": [
-    { "source": "/", "destination": "/3D-text/index.html" },
-    { "source": "/about", "destination": "/3D-text/about.html" },
-    { "source": "/project", "destination": "/3D-text/project.html" },
-    { "source": "/src/(.*)", "destination": "/3D-text/src/$1" },
-    { "source": "/matcaps/(.*)", "destination": "/3D-text/public/matcaps/$1" },
-    { "source": "/fonts/(.*)", "destination": "/3D-text/public/fonts/$1" }
+    { "source": "/about", "destination": "/about.html" },
+    { "source": "/project", "destination": "/project.html" }
   ]
 }
