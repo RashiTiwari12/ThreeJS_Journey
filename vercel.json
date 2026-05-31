@@ -1,8 +1,0 @@
-{
-  "buildCommand": "cd 3D-text && npm install && npm run build",
-  "outputDirectory": "3D-text/dist",
-  "rewrites": [
-    { "source": "/about", "destination": "/about.html" },
-    { "source": "/project", "destination": "/project.html" }
-  ]
-}
